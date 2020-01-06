@@ -1,0 +1,36 @@
+{
+  "name": "@viva-eng/redis-utils",
+  "version": "2.0.0",
+  "description": "Utilities for interacting with Redis in various ways",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viva-engineering/redis-utils.git"
+  },
+  "keywords": [
+    "redis",
+    "pool",
+    "cache"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva-engineering/redis-utils/issues"
+  },
+  "homepage": "https://github.com/viva-engineering/redis-utils#readme",
+  "devDependencies": {
+    "@types/node": "^11.11.4",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "@viva-eng/logger": "^2.0.0",
+    "eslint": "^6.1.0",
+    "typescript": "^3.7.0"
+  },
+  "dependencies": {
+    "generic-pool": "^3.7.1",
+    "redis": "^2.8.0"
+  }
+}
