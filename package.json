@@ -1,6 +1,6 @@
 {
   "name": "@viva-eng/redis-utils",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Utilities for interacting with Redis in various ways",
   "main": "build/index.js",
   "scripts": {
